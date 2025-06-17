@@ -1,6 +1,7 @@
 # EgoBolt
 Ego Battery Adapter for Jetson Bolt Pro
-<img src="Pictures/egobolt.jpg" alt="EgoBolt Adapter" height="200">
+
+<img src="Pictures/egobolt.jpg" alt="EgoBolt Adapter" height="400">
 
 
 ## Background
