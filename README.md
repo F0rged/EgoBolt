@@ -33,6 +33,36 @@ Power:
 -	5.0 ah = 252wh
 -	7.5 ah = 378wh
 
+Ego Battery Pack Voltage:
+Nominal:56V
+(4v x 14s = 56v)
+Max: 58.8V
+(4.2 x 14s = 58.8V)
+
+Ego Battery Terminals:
++ = Positive
+T = Temperature
+D = Data
+- = Negative
 
 
+Battery Adapter Device Requirements:
+-	On/Off Switch 
+(to protect from potential parasitic battery drain)
+-	Low Voltage Cutoff @ 43.5V
+(must be enforced by the tool. The battery doesn’t have this built in.)
+-	Replaceable Fuse @ 25A
+- DC-DC Converter (Drop 52v down to 36v)
+
+Approach:
+Since each tool also came with an extra charger that I dont need, I thought the simplest approach (at least for now) would be to just adapt a spare charger into the case for my new DC-DC inverter.
+The device just needs to drop the voltage down from teh Ego 52-56V to the 36V that the bolt expects.
+Then we just need a low voltage cut off (to protect the battery from being over-discharged) and a fuse.
+
+Bill of Materials (BOM):
+- DC-DC Converter
+- Low Voltage Cutoff circuit
+- Fuse (20a)
+- Button (to power on DC-DC converter)
+- Switch (Power On/Off - to stop the DCDC converter when you get off the bike.)
 
