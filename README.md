@@ -86,3 +86,9 @@ The device just needs to:
 - **(1) Locking Mechanism** (_3D printed_)
 - **(1) Electronics Mount/Tray** (_3D printed_)
 - **(2) Springs for Locking Mechanism**
+
+
+
+
+
+<img src="Pictures/20250510_113207.jpg" alt="EgoBolt Adapter" height="400">
