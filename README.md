@@ -1,6 +1,7 @@
 # EgoBolt
 Ego Battery Adapter for Jetson Bolt Pro
-![EgoBolt Adapter](Pictures/egobolt.jpg){ height=100 }
+<img src="Pictures/egobolt.jpg" alt="EgoBolt Adapter" height="200">
+
 
 ## Background
 I have always liked the idea of going for family bike rides. Unfortunately, my daughter (8 years old) was never very enthusiastic about the idea and was generally quite resistant whenever the suggestion came up.
