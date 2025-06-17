@@ -63,6 +63,7 @@ The device just needs to:
 1. **Drop the voltage** from the Ego 52-56V down to the **36V** that the Bolt expects.
 2. **Enforce a low voltage cutoff** (to protect the battery from over-discharge).
 3. **Include a fuse** for added protection.
+4. **Add a locking mechanism** since the EGO charger doesnt have one.
 
 ## Bill of Materials (BOM)
 - **(1) DC-DC Converter**  
