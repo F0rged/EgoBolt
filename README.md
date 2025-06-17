@@ -51,7 +51,7 @@ Battery Adapter Device Requirements:
 (to protect from potential parasitic battery drain)
 -	Low Voltage Cutoff @ 43.5V
 (must be enforced by the tool. The battery doesn’t have this built in.)
--	Replaceable Fuse @ 25A
+-	Replaceable Fuse @ 20A
 - DC-DC Converter (Drop 52v down to 36v)
 
 Approach:
@@ -60,9 +60,18 @@ The device just needs to drop the voltage down from teh Ego 52-56V to the 36V th
 Then we just need a low voltage cut off (to protect the battery from being over-discharged) and a fuse.
 
 Bill of Materials (BOM):
-- DC-DC Converter
-- Low Voltage Cutoff circuit
-- Fuse (20a)
-- Button (to power on DC-DC converter)
-- Switch (Power On/Off - to stop the DCDC converter when you get off the bike.)
-
+- (1) DC-DC Converter
+DROK CNC DC Buck Converter with Meter, 6-70V to 0-60V 20A 1200W
+Model FBA200707
+https://www.amazon.ca/dp/B0CNVWC66L?ref_=pe_125682630_1045605200_t_fed_asin_title&th=1
+- (1) Low Voltage Cutoff circuit
+  MgcSTEM Low Voltage Disconnect and Charging Discharging Protection 2 IN 1 40A DC 5V-60V Low Voltage Cutoff with LCD Display Low Voltage Protector Disconnect Switch Module Charging Discharging Protection Board
+Model 7f97e121-c03e-4f22-97e6-13224b8cd3e9
+https://www.amazon.ca/dp/B0C2VMGCZR?ref_=pe_125682630_1045605200_t_fed_asin_title
+- (1) Fuse (20a)
+- (1) Button (to power on DC-DC converter)
+- (1) Switch (Power On/Off - to stop the DCDC converter when you get off the bike.)
+- (1) Charger Case
+- (1) Locking Mechanism (3d printed)
+- (1) Electronics mount/tray (3d printed)
+- (2) Springs for locking mechanism
