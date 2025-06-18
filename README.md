@@ -3,6 +3,7 @@ Ego Battery Adapter for Jetson Bolt Pro
 
 <img src="Pictures/egobolt.jpg" alt="EgoBolt Adapter" height="400">
 
+# USE AT YOUR OWN RISK - BATTERIES CAN BE DANGEROUS - I TAKE NO RESPONSIBILITY FOR YOUR SAFETY!!!!!!!!!
 
 ## Background
 I have always liked the idea of going for family bike rides. Unfortunately, my daughter (8 years old) was never very enthusiastic about the idea and was generally quite resistant whenever the suggestion came up.
@@ -14,6 +15,8 @@ I picked up a used one in good shape for about **$250 CAD**, and it worked well.
 Meanwhile, I have amassed an array of **Ego tools** over the years, each of which included its own **56V battery**. These should be a good fit for an e-bike. All that should be needed is to **drop the voltage**, **add a fuse**, and **integrate a low voltage protection circuit**.
 
 The **Ego 4Ah** or higher should be roughly equivalent to the factory Bolt battery in terms of watt-hours.
+
+
 
 ## Bolt Pro Factory Battery Specifications
 Based on research, the factory battery has the following properties:
